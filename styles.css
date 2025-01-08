@@ -191,7 +191,7 @@ nav svg{
 }
 
 .home-container {
-    background-image: url("/back-image/backgr.png");
+    background-image: url("./back-image/backgr.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1215,7 +1215,7 @@ nav a:hover{
     }
     
     .intel img {
-        width: 300px;
+        width: 400px;
     }
 
     .intel {

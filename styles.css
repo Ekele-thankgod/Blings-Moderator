@@ -1,36 +1,5 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", serif;
-    background-color: white;
-}
 
-.first-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    padding: 10px 0;
-    
-}
-
-.header {
-    background: white;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
-}
-
-.seal {
-    border: none;
-}
-.logo img {
-    width: 70px;
-}
-.rash img {
+/* .rash img {
     width: 70px;
 }
 
@@ -57,8 +26,39 @@ body {
 }
 
 .navbar a:hover {
-    background: #555
+    background: #555;
     
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    background-color: white;
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    
+}
+
+.header {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.logo img {
+    width: 70px;
 }
 
 nav{
@@ -152,6 +152,9 @@ nav svg{
 }
 .carousel-item img {
     width: 100%;
+}
+.seal {
+    border: none;
 }
 
 .about-content .core {
@@ -327,7 +330,7 @@ nav svg{
 }
 
 .background h1 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
 }
 
@@ -523,6 +526,11 @@ hr {
     /* border-top: var(--bs-border-width) solid; */
     opacity: .25;
 }
+.copyright-container a {
+    text-decoration: none;
+    border: none;
+    color: rgb(216, 216, 216);
+}
 
 .copyright-container {
     
@@ -632,9 +640,7 @@ body {
     margin-bottom: 30px;
     margin-top: 40px;
 }  
-  .active, .collapsible:hover {
-    /* background-color: #baeccd; */
-  }
+  
   
   .collapsible:after {
     content: '\002B';
@@ -991,6 +997,7 @@ body {
     box-shadow: 7px 6px 11px 0px rgba(209,188,209,0.5);
 }
 
+
 /* .WhatsApp svg {
     position: sticky;
     bottom: -100%;
@@ -1208,7 +1215,7 @@ nav a:hover{
     }
     
     .intel img {
-        width: 400px;
+        width: 300px;
     }
 
     .intel {
@@ -1305,6 +1312,10 @@ nav a:hover{
         background-size: cover;
         background-blend-mode: multiply; 
         
+    }
+
+    .background h1 {
+        font-size: 20px;
     }
 
     .flow {
